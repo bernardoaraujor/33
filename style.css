@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-image: url(bg.gif);
+  font-family: Consolas, monospace;
+  color: #bbbbbb;
+  flex-direction: column;
+}
+
+.bday {
+  position: fixed;
+}
+
+.h1 {
+  z-index: 1;
+}
+
+.centered-paragraph {
+  text-align: center;
+  z-index: 1;
+}
+
+.link {
+  font-family: Consolas, monospace;
+  color: #bbbbbb;
+  white-space: nowrap;
+}
